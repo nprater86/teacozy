@@ -1,0 +1,47 @@
+html{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+body{
+  /* Why does the body always default to margins of 8? I always end up having to set body to margin: 0 to have the header sit right */
+  margin: 0;
+}
+
+header{
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  flex-shrink: 1;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+header nav{
+  text-decoration: underline;
+  flex-grow: 1;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row wrap;
+}
+
+header nav span{
+  padding: 20px 10px;
+}
+
+header nav a{
+  color: seashell;
+}
