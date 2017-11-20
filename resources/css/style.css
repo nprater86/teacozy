@@ -94,7 +94,7 @@ header nav a{
 }
 
 .item h4{
-  margin: 10px;
+  margin-top: 0px;
 }
 
 .item img{
@@ -105,19 +105,16 @@ header nav a{
 .locations{
   height: 500px;
   background-image: url("../images/img-locations-background.jpg");
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .locations h2{
+  margin-top: 47px;
   margin-bottom: 15px;
 }
 
 .locationlists{
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .location{
