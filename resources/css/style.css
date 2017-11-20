@@ -134,3 +134,15 @@ header nav a{
 .location h3{
   margin: 0;
 }
+
+.contact{
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+  width: 100%;
+}
