@@ -49,10 +49,11 @@ header nav a{
   color: seashell;
 }
 
-.mission{
+.content{
   padding-top: 69px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 1200px;
   margin: 0 auto;
 }
@@ -63,6 +64,7 @@ header nav a{
   justify-content: center;
   height: 700px;
   width: 1200px;
+  margin: 0 auto;
   background-image: url("../images/img-mission-background.jpg");
 }
 
@@ -79,6 +81,21 @@ header nav a{
   justify-content: center;
   width: 1000px;
   margin: 0 auto;
+  border: 1px solid white;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item{
+  margin: 10px;
+}
+
+.item h4{
+  margin: 10px;
 }
 
 .item img{
