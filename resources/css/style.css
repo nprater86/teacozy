@@ -119,7 +119,6 @@ header nav a{
 
 .location{
   background-color: black;
-  opacity: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -130,6 +129,10 @@ header nav a{
 
 .location h3{
   margin: 0;
+}
+
+.location h3, .location span{
+  opacity: 1;
 }
 
 .contact{
