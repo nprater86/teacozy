@@ -4,6 +4,7 @@ html{
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 body{
@@ -57,7 +58,6 @@ header nav a{
 }
 
 .missionimage{
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,4 +71,17 @@ header nav a{
   width: 100%;
   margin: 0;
   padding: 10px;
+}
+
+.featured{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.item img{
+  height: 200px;
+  width: 300px;
 }
