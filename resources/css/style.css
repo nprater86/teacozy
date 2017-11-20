@@ -15,11 +15,13 @@ header{
   position: fixed;
   height: 69px;
   width: 100%;
+  background-color: black;
   border-bottom: 1px solid seashell;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  z-index: 10;
 }
 
 .logo{
@@ -44,4 +46,29 @@ header nav span{
 
 header nav a{
   color: seashell;
+}
+
+.mission{
+  padding-top: 69px;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.missionimage{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+.missionimage h2, .missionimage h4{
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
 }
